@@ -1,4 +1,4 @@
-#eternity
+# eternity
 
 > eternity 
 	n.	永恒; 不朽; [宗] 来世，永生，永劫; 万年;

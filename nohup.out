@@ -1,0 +1,5 @@
+
+> eternity@0.0.0 start
+> node ./bin/www
+
+Express server listening on port 3000

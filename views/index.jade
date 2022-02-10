@@ -4,6 +4,7 @@ html(lang='zh')
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title Love between Us
+    link(rel='stylesheet', href='/stylesheets/custom.style.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='/stylesheets/love-record/main.css')
   body
@@ -33,10 +34,13 @@ html(lang='zh')
     script(type='text/javascript', src='/javascripts/bootstrap.min.js')
     script(type='text/javascript', src='/javascripts/count-time.js')
     script(type='text/javascript', src='/javascripts/jquery.backstretch.min.js')
+    script(type='text/javascript', src='/javascripts/love-down.js')
+    script.
+      $(document).snowfall({ flakeCount: 50, maxSpeed: 5 });
     script.
       $(function () {
       //设置起始日期
-      countTime('2016/01/30 23:45', 'day', 'hour', 'minute', 'second');
+      countTime('2022/02/03 22:50', 'day', 'hour', 'minute', 'second');
       var days = $('#day').text();
       // 设置标题
       if (parseInt(days / 365) != 0) {
